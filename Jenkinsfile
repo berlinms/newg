@@ -1,4 +1,5 @@
 node {
-    sh './gradlew build'
+    stage('Build')
+        sh './gradlew build'
 }
-findBuildScan()
+
